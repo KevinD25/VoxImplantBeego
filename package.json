@@ -1,0 +1,27 @@
+{
+  "name": "voximplantbeego",
+  "version": "1.1.60",
+  "description": "Voip sdk usage voor beego frontend",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "voip",
+    "sdk",
+    "beego"
+  ],
+  "author": "Kevin Davis",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^9.0.5",
+    "rxjs": "^6.5.4",
+    "voximplant-websdk": "^4.3.71878"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.2"
+  }
+}
